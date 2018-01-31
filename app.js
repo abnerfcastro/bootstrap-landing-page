@@ -1,9 +1,9 @@
 /*!
  * app.js
  * 
- * Copyright(c) 2017 @project-name
- * Author: @author
- * Date: @date
+ * Copyright(c) 2018
+ * Author: Abner Castro
+ * Date: 31st January, 2018
  */
 
 //  Load environment variables inside .env file
@@ -29,5 +29,5 @@ if (app.get('env') === 'development') {
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.listen(app.get('port'), function() {
-    console.log('Server has started on port ' + app.get('port'));
+    console.log(`Server has started on port=${app.get('port')} and environment=${app.get('env')}`);
 });

@@ -4,7 +4,7 @@
   "description": "My personal web boilerplate",
   "main": "app.js",
   "scripts": {
-    "prestart": "npm install && bower install",
+    "prestart": "npm install --only=production",
     "start": "node app.js",
     "watch:sass": "node-sass -w sass/main.scss public/css/style.css",
     "build:sass": "node-sass sass/main.scss public/css/style.css --output-style compressed",
@@ -13,6 +13,9 @@
   },
   "author": "Abner Castro <abnerfcastro@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "8.9.4"
+  }
   "dependencies": {
     "dotenv": "^4.0.0",
     "express": "4.15.2"
