@@ -1,0 +1,14 @@
+{
+  "name": "web-boilerplate",
+  "homepage": "https://github.com/abnerfcastro/web-boilerplate",
+  "authors": [
+    "Abner Castro <abnerfcastro@gmail.com>"
+  ],
+  "description": "My personal web boilerplate",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "1.6.2",
+    "bootstrap": "^3.3.7"
+  }
+}
