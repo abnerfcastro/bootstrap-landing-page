@@ -46,6 +46,9 @@ header {
     background-attachment: fixed;
     z-index: -1; }
 
+.btn-flat {
+  border-radius: 0; }
+
 .chevron-button a {
   font-size: 1.5em;
   color: white; }
